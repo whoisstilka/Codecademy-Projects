@@ -1,0 +1,154 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    padding: 10px 10px;
+    max-height: 69px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+}
+
+footer {
+    font-weight: bold;
+    text-align: left;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+
+a {
+    color: seashell;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.leftheader {
+    line-height: 69px;
+    padding: 9.5px 0px;
+}
+
+.rightheader {
+    line-height: 69px;
+    height: 69px;
+}
+
+.main-content {
+    margin: 0 auto;
+    height: 700px;
+    width: 1200px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.background {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.text {
+    top: 40%;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0.1;
+}
+
+#logo {
+    max-height: 50px;
+}
+
+.tea-of-the-month {
+    width: 1000px;
+    display: inline-grid;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    line-height: 0.1;
+    padding: 50px 0px;
+}
+
+.tea-of-the-month img {
+    height: 200px;
+    width: 300px;
+}
+
+.tea-of-the-month p {
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.images {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+
+.locations {
+    margin: 0 auto;
+    height: 500px;
+    width: 1200px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wrapper-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.itm-desc {
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.locations img {
+    position: absolute;
+}
+
+.locations h2 {
+    position: relative;
+}
+
+.address {
+    height: 200px;
+}
