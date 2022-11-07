@@ -1,0 +1,45 @@
+body {
+    background-color: #EFCEFA ;
+}
+
+table, td {
+    box-sizing: border-box;
+    border: 2px solid #5D4E60;
+    text-align: center;
+    border-collapse: separate;
+}
+
+th {
+    background-color: pink;
+}
+
+td {
+    padding: 1px 10px;
+    border-bottom: 1px;
+    border-left: 1px;
+    border-right: 1px;
+}
+
+thead, tbody {
+    padding: 1px;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.header h2 {
+    color: rgb(0, 50, 50);
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tags {
+    font-family: monospace;
+    background-color: #D4B2D8;
+}
