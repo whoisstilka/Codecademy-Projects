@@ -1,0 +1,46 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+.brand_name h1 {
+    background-image: url(./pattern.jpeg);
+}
+
+p {
+    font-size: 14px;
+}
+
+span {
+    font-weight: bold;
+    color: blue;
+}
+
+#items {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#items h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+#items .brushes h2 {
+    background-color: mediumspringgreen;
+}
+
+#items .frames h2 {
+    background-color: lightcoral;
+}
+
+#items .paint h2 {
+    background-color: skyblue;
+}
+
+#items h4 {
+    font-weight: bold;
+}
